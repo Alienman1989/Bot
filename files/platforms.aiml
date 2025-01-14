@@ -1,0 +1,276 @@
+<aiml version="2.0">
+ <topic name="PlayStation">
+    <category>
+      <pattern>^ RPG ^</pattern>
+      <template>
+        RPGs are awesome! PlayStation has some great ones like Final Fantasy XV, Persona 5, and The Witcher 3. Are you more into turn-based or action RPGs?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ FPS ^</pattern>
+      <template>
+        First-person shooters are always thrilling! You should try Call of Duty, Doom Eternal, or Apex Legends. Do you prefer Singleplayer games or Multiplayer experience?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ STRATEGY ^</pattern>
+      <template>
+        <set name="topic"></set> Strategy games are perfect for testing your tactical skills. You might enjoy XCOM 2, Civilization VI, or Valkyria Chronicles. Do you want to talk about PC, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ OPEN WORLD ^</pattern>
+      <template>
+        Open-world games give you such freedom to explore! Some amazing titles include Horizon Forbidden West, Ghost of Tsushima, and Red Dead Redemption 2. Which open-world game has captured your attention lately?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ TURN ^</pattern>
+      <template>
+        <set name="topic"></set> Turn-based RPGs are perfect for strategic gameplay! You might love titles like Dragon Quest XI, Octopath Traveler, and Divinity Original Sin. Do you want to talk about PC, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ ACTION ^</pattern>
+      <template>
+        <set name="topic"></set> Action RPGs offer fast-paced combat and immersive worlds! I recommend trying Bloodborne, Dark Souls III, and Kingdom Hearts III. Do you want to talk about PC, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ SINGLEPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Single-player FPS games are great for immersive stories and intense action! You might enjoy Metro Exodus, Bioshock Infinite, or Far Cry 6. Do you want to talk about PC, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Multiplayer FPS games are perfect for competitive and cooperative play! Check out Rainbow Six Siege, Battlefield 2042, or Overwatch 2. Do you want to talk about PC, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>*</pattern>
+      <template>
+        Sorry, I didn't quite catch that. Could you specify what genre do you prefer? Would you like to read some gaming Trivia?
+      </template>
+    </category>
+    
+   
+    
+ </topic>
+ 
+<topic name="XBox">
+    <category>
+      <pattern>^ RPG ^</pattern>
+      <template>
+        RPGs are awesome! Xbox has some great exclusives like The Elder Scrolls V: Skyrim Special Edition, Fable Legends, and Sea of Thieves. Are you more into turn-based or action RPGs?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ FPS ^</pattern>
+      <template>
+        First-person shooters are always thrilling! You should try Halo Infinite, Gears 5, or DOOM Eternal (though also available elsewhere, the Xbox version is excellent). Do you prefer Singleplayer games or Multiplayer experience?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ STRATEGY ^</pattern>
+      <template>
+        <set name="topic"></set> Strategy games are perfect for testing your tactical skills. You might enjoy Halo Wars 2, Age of Empires IV (available on Xbox), or Gears Tactics. Do you want to talk about PC, Nintendo, or PlayStation? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ OPEN ^</pattern>
+      <template>
+        Open-world games give you such freedom to explore! Some amazing Xbox exclusives include Forza Horizon 5, State of Decay 2, and The Outer Worlds. Which open-world game has captured your attention lately?
+      </template>
+    </category>
+    
+    
+
+    <category>
+      <pattern>^ TURN ^</pattern>
+      <template>
+        <set name="topic"></set> Turn-based RPGs are perfect for strategic gameplay! You might love titles like Wasteland 3, Gears of War: Tactics, and the upcoming Avowed. Do you want to talk about PC, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ ACTION ^</pattern>
+      <template>
+        <set name="topic"></set> Action RPGs offer fast-paced combat and immersive worlds! I recommend trying Hellblade: Senua's Sacrifice, Quantum Break, and the recently released Starfield (available through Xbox Game Pass). Do you want to talk about PC, Nintendo, or PlayStation? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ SINGLEPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Single-player FPS games are great for immersive stories and intense action! You might enjoy Halo: The Master Chief Collection, Gears 5, or Far Cry 6. Do you want to talk about PC, Nintendo, or PlayStation? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Multiplayer FPS games are perfect for competitive and cooperative play! Check out Halo Infinite, Battlefield 2042, or Overwatch 2. Do you want to talk about PC, Nintendo, or PlayStation? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>*</pattern>
+      <template>
+        Sorry, I didn't quite catch that. Could you specify what genre do you prefer? Would you like to read some gaming Trivia?
+      </template>
+    </category>
+</topic>
+
+<topic name="Nintendo">
+    <category>
+      <pattern>^ RPG ^</pattern>
+      <template>
+        RPGs are awesome! Nintendo has some great exclusives like The Legend of Zelda: Breath of the Wild, Xenoblade Chronicles 2, and Fire Emblem: Three Houses. Are you more into turn-based or action RPGs?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ FPS ^</pattern>
+      <template>
+        First-person shooters are always thrilling! You should try Splatoon 3, Metroid Prime 4, or Super Mario 3D World. Do you prefer Singleplayer games or Multiplayer experience?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ STRATEGY ^</pattern>
+      <template>
+        <set name="topic"></set> Strategy games are perfect for testing your tactical skills. You might enjoy Fire Emblem: Three Houses, Mario + Rabbids Kingdom Battle, or Pikmin 3 Deluxe. Do you want to talk about PC, PlayStation, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ OPEN WORLD ^</pattern>
+      <template>
+        Open-world games give you such freedom to explore! Some amazing Nintendo exclusives include The Legend of Zelda: Breath of the Wild, Super Mario Odyssey, and Animal Crossing: New Horizons. Which open-world game has captured your attention lately?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ TURN ^</pattern>
+      <template>
+        <set name="topic"></set> Turn-based RPGs are perfect for strategic gameplay! You might love titles like Fire Emblem: Three Houses, Octopath Traveler, and Paper Mario: The Origami King. Do you want to talk about PC, PlayStation, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ ACTION ^</pattern>
+      <template>
+        <set name="topic"></set> Action RPGs offer fast-paced combat and immersive worlds! I recommend trying The Legend of Zelda: Breath of the Wild, Bayonetta 2, and Astral Chain. Do you want to talk about PC, PlayStation, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ SINGLEPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Single-player FPS games are great for immersive stories and intense action! You might enjoy Metroid Prime 4, Splatoon 2 (for a solo experience), or Super Mario Odyssey. Do you want to talk about PC, PlayStation, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Multiplayer FPS games are perfect for competitive and cooperative play! Check out Splatoon 3, Mario Kart 8 Deluxe, or Super Smash Bros. Ultimate. Do you want to talk about PC, PlayStation, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>*</pattern>
+      <template>
+        Sorry, I didn't quite catch that. Could you specify what genre do you prefer? Would you like to read some gaming Trivia?
+      </template>
+    </category>
+</topic>
+
+
+<topic name="PC">
+    <category>
+      <pattern>^ RPG ^</pattern>
+      <template>
+        RPGs are awesome! PC has some great exclusives like The Witcher 3: Wild Hunt, Divinity: Original Sin 2, and Baldur's Gate 3. Are you more into turn-based or action RPGs?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ FPS ^</pattern>
+      <template>
+        First-person shooters are always thrilling! You should try Half-Life: Alyx, DOOM Eternal, or Metro Exodus. Do you prefer Singleplayer games or Multiplayer experience?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ STRATEGY ^</pattern>
+      <template>
+        <set name="topic"></set> Strategy games are perfect for testing your tactical skills. You might enjoy Stellaris, Total War: Warhammer III, or Command and Conquer Remastered Collection. Do you want to talk about PlayStation, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ OPEN WORLD ^</pattern>
+      <template>
+        Open-world games give you such freedom to explore! Some amazing PC exclusives include Cyberpunk 2077 (on PC first), Kingdom Come: Deliverance, and the upcoming Starfield. Which open-world game has captured your attention lately?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ TURN ^</pattern>
+      <template>
+        <set name="topic"></set> Turn-based RPGs are perfect for strategic gameplay! You might love titles like Divinity: Original Sin 2, Wasteland 3, and Gears Tactics. Do you want to talk about PlayStation, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ ACTION ^</pattern>
+      <template>
+        <set name="topic"></set> Action RPGs offer fast-paced combat and immersive worlds! I recommend trying Cyberpunk 2077, Dark Souls III, and Outer Worlds. Do you want to talk about PlayStation, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ SINGLEPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Single-player FPS games are great for immersive stories and intense action! You might enjoy Half-Life: Alyx, Metro Exodus, or Bioshock Infinite. Do you want to talk about PlayStation, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ MULTIPLAYER ^</pattern>
+      <template>
+        <set name="topic"></set> Multiplayer FPS games are perfect for competitive and cooperative play! Check out Apex Legends, Valorant, or Battlefield V. Do you want to talk about PlayStation, Nintendo, or Xbox? Tell me about which one you're interested to talk. I can also share some gaming trivia with you.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>*</pattern>
+      <template>
+        Sorry, I didn't quite catch that. Could you specify what genre do you prefer? Would you like to read some gaming Trivia?
+      </template>
+    </category>
+</topic>
+
+
+
+
+
+</aiml>
+
+
+
+

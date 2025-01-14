@@ -1,0 +1,214 @@
+<aiml version="2.0">
+    
+    <!-- Starting Patterns -->
+    
+    <category>
+        <pattern>^ HI ^</pattern>
+        <template>
+          Hello! I would like to talk with you about video games. Do you play on PC or console?
+        </template>
+      </category>
+    
+      <category>
+        <pattern>^ HELLO ^</pattern>
+        <template>
+          Hello! I would like to talk with you about video games. Do you play on PC or console?
+        </template>
+      </category>
+    
+      <category>
+        <pattern>^ HEY ^</pattern>
+        <template>
+          Hello! I would like to talk with you about video games. Do you play on PC or console?
+        </template>
+      </category>
+    
+      <category>
+        <pattern>WHAT'S UP</pattern>
+        <template>
+          Hello! I would like to talk with you about video games. Do you play on PC or console?
+        </template>
+      </category>
+    
+    <!-- Follow-Up Dialogues -->
+
+    <category>
+      <pattern>^ PC ^</pattern>
+      <template>
+        <set name="topic">PC</set> gaming offers so much variety! Do you prefer RPG, FPS games, strategy, or open-world adventures? What’s your favorite genre?
+      </template>
+    </category>
+
+    <category>
+      <pattern> ^ CONSOLE ^ </pattern>
+      <template>
+      Console gaming is awesome! Are you on PlayStation, Xbox, or Nintendo?
+      </template>
+    </category>
+
+    <!-- Follow-Up on Gaming Platforms -->
+    <category>
+      <pattern>^ PLAYSTATION ^</pattern>
+      <template>
+        <set name="topic">PlayStation</set> has so many great exclusives like God of War, Horizon Zero Dawn, or Spider-Man but are you into RPG, FPS games, strategy, or open-world adventures? What’s your favorite genre?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ XBOX ^</pattern>
+      <template>
+        <set name="topic">XBox</set> is home to incredible series like Halo and Forza Horizon. I am looking forward to most of new Game Pass titles. Are you into RPGs, FPS games, strategy, or open-world adventures? What’s your favorite genre?
+      </template>
+    </category>
+
+    <category>
+      <pattern>^ NINTENDO ^</pattern>
+      <template>
+        <set name="topic">Nintendo</set> games are so much fun! There're lots of classics like Super Mario and Zelda, or newer games like Splatoon and Animal Crossing. Are you into RPGs, FPS games, strategy, or open-world adventures? What’s your favorite genre?
+      </template>
+    </category>
+    
+    <!--Trivia-->
+    
+    <category>
+      <pattern>^ TRIVIA ^</pattern>
+      <template>
+        Here's some cool gaming trivia for you!
+        <random>
+          <li>Did you know the longest videogame marathon on an FPS was 35 hours?</li>
+          <li>The first multiplayer game, "The Empire Game," was released in 1972!</li>
+          <li>World of Warcraft holds the record for the most number of concurrent players in an MMORPG!</li>
+          <li>Did you know that the original "Super Mario Bros." was developed in just under two years by a small team of only 11 people?</li>
+          <li>Pac-Man, one of the most iconic arcade games, was initially supposed to feature a pizza instead of a yellow circle!</li>
+          <li>The iconic sound of the Mario jumping was made using a reversed version of the sound of a person stepping on a tile!</li>
+          <li>In the 1980s, the game "Tetris" was actually used by the Soviet government to boost productivity in offices!</li>
+          <li>The first video game Easter egg appeared in the 1980 game "Adventure" for the Atari 2600, hidden by the game's developer.</li>
+          <li>The "Konami Code," a famous cheat code, was first used in the 1986 game "Gradius" for the NES!</li>
+          <li>Did you know the "Halo" franchise started off as a real-time strategy game before becoming the iconic FPS it is today?</li>
+          <li>"Minecraft," the best-selling game of all time, was initially created by a single developer named Markus "Notch" Persson!</li>
+          <li>The first-ever video game console was the Magnavox Odyssey, released in 1972!</li>
+          <li>"The Legend of Zelda" was named after Zelda Fitzgerald, the wife of author F. Scott Fitzgerald!</li>
+          <li>The character Mario was originally created as "Jumpman" in the 1981 arcade game "Donkey Kong."</li>
+          <li>Did you know "Fortnite" was initially a survival game before transitioning into the battle royale genre?</li>
+          <li>The first home console to feature a wireless controller was the Nintendo Wii!</li>
+          <li>The "Pokémon" franchise was inspired by the childhood experiences of creator Satoshi Tajiri, who loved to collect insects.</li>
+          <li>The "Final Fantasy" series was almost canceled after its first game due to poor sales!</li>
+          <li>The most expensive video game ever made is "Grand Theft Auto V," with a production budget of around $270 million!</li>
+          <li>"Street Fighter II" holds the record for the most arcade cabinets sold of any game in history!</li>
+          <li>The most-played game in the world is "League of Legends" with millions of players worldwide!</li>
+          <li>The first game to feature a "boss fight" was "Space Invaders" in 1978!</li>
+          <li>Did you know that "The Sims" became the best-selling PC game of all time, surpassing "Myst"?</li>
+          <li>The very first VR game ever created was "Sensorama," a 1960s invention by Morton Heilig!</li>
+          <li>The best-selling video game franchise in the world is "Mario," with over 500 million copies sold!</li>
+          <li>In the 1990s, game consoles were banned in China due to concerns over their impact on children's education!</li>
+          <li>One of the most famous video game soundtracks, "The Elder Scrolls V: Skyrim," was composed by Jeremy Soule!</li>
+          <li>The iconic "Pikachu" from Pokémon was inspired by a combination of a rabbit, a mouse, and a squirrel!</li>
+          <li>The character "Link" from "The Legend of Zelda" was originally supposed to be called "Spry."</li>
+          <li>The longest video game series in terms of years is "The Legend of Zelda," with its first game released in 1986!</li>
+          <li>"Donkey Kong" was the first game to feature Mario as a playable character!</li>
+          <li>The character "Crash Bandicoot" was designed to rival Sonic and Mario in the 1990s!</li>
+          <li>The "Wii Sports" game, bundled with the Wii console, was the first game to be played by more than 40 million people!</li>
+          <li>The first video game to feature a "multiplayer" mode was "Spacewar!" created in 1962 by MIT students.</li>
+          <li>The original "Tomb Raider" game was created by a small team, and Lara Croft was inspired by a combination of various strong female icons.</li>
+          <li>Did you know that the first video game to be released commercially was "Computer Space," in 1971?</li>
+          <li>The largest video game collection in the world belongs to Michael Thomasson, with over 11,000 games!</li>
+          <li>Did you know that the best-selling fighting game franchise of all time is "Super Smash Bros."?</li>
+          <li>In 2009, the first-ever "virtual reality" gaming console was released, the "Oculus Rift"!</li>
+          <li>The first "Resident Evil" game almost had a completely different storyline, with no zombies, and a focus on monster enemies instead!</li>
+          <li>Did you know that the iconic "Pong" game was the first commercially successful video game?</li>
+          <li>The game "Battlefield 2042" features more than 128-player battles, making it one of the largest multiplayer FPS games!</li>
+          <li>Did you know the longest-lasting video game character is "Pac-Man," who made his debut in 1980?</li>
+          <li>The highest-grossing video game film of all time is "Warcraft," released in 2016, based on the iconic game series!</li>
+          <li>Mario’s full name is Mario Mario, and his brother’s name is Luigi Mario, which makes them both Mario brothers!</li>
+          <li>Did you know the first "Call of Duty" game was inspired by the real-life events of World War II and sold millions of copies worldwide?</li>
+          <li>The first home console to feature "motion controls" was the Nintendo Wii!</li>
+          <li>"Dark Souls" was originally going to have a much simpler, easier difficulty setting, but the developers decided to make it more challenging!</li>
+        </random>
+        Do you want to read more? If you want we can talk about a gaming platforms like PC, XBox, PlayStation or Nintendo.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ YES ^</pattern>
+      <template>
+        Here's some cool gaming trivia for you!
+        <random>
+          <li>Did you know the longest videogame marathon on an FPS was 35 hours?</li>
+          <li>The first multiplayer game, "The Empire Game," was released in 1972!</li>
+          <li>World of Warcraft holds the record for the most number of concurrent players in an MMORPG!</li>
+          <li>Did you know that the original "Super Mario Bros." was developed in just under two years by a small team of only 11 people?</li>
+          <li>Pac-Man, one of the most iconic arcade games, was initially supposed to feature a pizza instead of a yellow circle!</li>
+          <li>The iconic sound of the Mario jumping was made using a reversed version of the sound of a person stepping on a tile!</li>
+          <li>In the 1980s, the game "Tetris" was actually used by the Soviet government to boost productivity in offices!</li>
+          <li>The first video game Easter egg appeared in the 1980 game "Adventure" for the Atari 2600, hidden by the game's developer.</li>
+          <li>The "Konami Code," a famous cheat code, was first used in the 1986 game "Gradius" for the NES!</li>
+          <li>Did you know the "Halo" franchise started off as a real-time strategy game before becoming the iconic FPS it is today?</li>
+          <li>"Minecraft," the best-selling game of all time, was initially created by a single developer named Markus "Notch" Persson!</li>
+          <li>The first-ever video game console was the Magnavox Odyssey, released in 1972!</li>
+          <li>"The Legend of Zelda" was named after Zelda Fitzgerald, the wife of author F. Scott Fitzgerald!</li>
+          <li>The character Mario was originally created as "Jumpman" in the 1981 arcade game "Donkey Kong."</li>
+          <li>Did you know "Fortnite" was initially a survival game before transitioning into the battle royale genre?</li>
+          <li>The first home console to feature a wireless controller was the Nintendo Wii!</li>
+          <li>The "Pokémon" franchise was inspired by the childhood experiences of creator Satoshi Tajiri, who loved to collect insects.</li>
+          <li>The "Final Fantasy" series was almost canceled after its first game due to poor sales!</li>
+          <li>The most expensive video game ever made is "Grand Theft Auto V," with a production budget of around $270 million!</li>
+          <li>"Street Fighter II" holds the record for the most arcade cabinets sold of any game in history!</li>
+          <li>The most-played game in the world is "League of Legends" with millions of players worldwide!</li>
+          <li>The first game to feature a "boss fight" was "Space Invaders" in 1978!</li>
+          <li>Did you know that "The Sims" became the best-selling PC game of all time, surpassing "Myst"?</li>
+          <li>The very first VR game ever created was "Sensorama," a 1960s invention by Morton Heilig!</li>
+          <li>The best-selling video game franchise in the world is "Mario," with over 500 million copies sold!</li>
+          <li>In the 1990s, game consoles were banned in China due to concerns over their impact on children's education!</li>
+          <li>One of the most famous video game soundtracks, "The Elder Scrolls V: Skyrim," was composed by Jeremy Soule!</li>
+          <li>The iconic "Pikachu" from Pokémon was inspired by a combination of a rabbit, a mouse, and a squirrel!</li>
+          <li>The character "Link" from "The Legend of Zelda" was originally supposed to be called "Spry."</li>
+          <li>The longest video game series in terms of years is "The Legend of Zelda," with its first game released in 1986!</li>
+          <li>"Donkey Kong" was the first game to feature Mario as a playable character!</li>
+          <li>The character "Crash Bandicoot" was designed to rival Sonic and Mario in the 1990s!</li>
+          <li>The "Wii Sports" game, bundled with the Wii console, was the first game to be played by more than 40 million people!</li>
+          <li>The first video game to feature a "multiplayer" mode was "Spacewar!" created in 1962 by MIT students.</li>
+          <li>The original "Tomb Raider" game was created by a small team, and Lara Croft was inspired by a combination of various strong female icons.</li>
+          <li>Did you know that the first video game to be released commercially was "Computer Space," in 1971?</li>
+          <li>The largest video game collection in the world belongs to Michael Thomasson, with over 11,000 games!</li>
+          <li>Did you know that the best-selling fighting game franchise of all time is "Super Smash Bros."?</li>
+          <li>In 2009, the first-ever "virtual reality" gaming console was released, the "Oculus Rift"!</li>
+          <li>The first "Resident Evil" game almost had a completely different storyline, with no zombies, and a focus on monster enemies instead!</li>
+          <li>Did you know that the iconic "Pong" game was the first commercially successful video game?</li>
+          <li>The game "Battlefield 2042" features more than 128-player battles, making it one of the largest multiplayer FPS games!</li>
+          <li>Did you know the longest-lasting video game character is "Pac-Man," who made his debut in 1980?</li>
+          <li>The highest-grossing video game film of all time is "Warcraft," released in 2016, based on the iconic game series!</li>
+          <li>Mario’s full name is Mario Mario, and his brother’s name is Luigi Mario, which makes them both Mario brothers!</li>
+          <li>Did you know the first "Call of Duty" game was inspired by the real-life events of World War II and sold millions of copies worldwide?</li>
+          <li>The first home console to feature "motion controls" was the Nintendo Wii!</li>
+          <li>"Dark Souls" was originally going to have a much simpler, easier difficulty setting, but the developers decided to make it more challenging!</li>
+        </random>
+        Do you want to read more? If you want we can talk about a gaming platforms like PC, XBox, PlayStation or Nintendo.
+      </template>
+    </category>
+    
+    <category>
+      <pattern>^ NO ^</pattern>
+      <template>
+          Ok, so maybe let's talk about some gaming platforms like XBox, PC, PlayStation or Nintendo. Which one are you playing on?
+      </template>
+    </category>
+    
+    <!--Catch all category-->
+    
+    <category>
+      <pattern>*</pattern>
+      <template>
+        Sorry, I didn't quite catch that. Could you please specify we're talking about PC, PlayStation, XBox, or Nintendo? Do you wanna ask about some gaming trivia?
+      </template>
+    </category>
+
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+<category>
+    <pattern>Click node to edit pattern</pattern>
+    <template>Click node to edit template</template>
+</category>
+</aiml>
